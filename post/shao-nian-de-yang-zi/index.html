@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>少年的样子 | 我趴在云边</title>
-<link rel="shortcut icon" href="https://qazhj.github.io/favicon.ico?v=1621912507552">
+<link rel="shortcut icon" href="https://qazhj.github.io/favicon.ico?v=1621924071388">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://qazhj.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="少年的样子 | 我趴在云边 - Atom Feed" href="https://qazhj.github.io/atom.xml">
@@ -27,7 +27,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://qazhj.github.io">
-  <img class="avatar" src="https://qazhj.github.io/images/avatar.png?v=1621912507552" alt="">
+  <img class="avatar" src="https://qazhj.github.io/images/avatar.png?v=1621924071388" alt="">
   </a>
   <h1 class="site-title">
     我趴在云边
@@ -109,6 +109,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
